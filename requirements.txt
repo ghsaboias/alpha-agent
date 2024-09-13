@@ -1,0 +1,9 @@
+discord.py
+python-dotenv
+anthropic
+moment
+crawl4ai @ git+https://github.com/unclecode/crawl4ai.git
+numpy
+googlesearch-python
+nltk
+scikit-learn
