@@ -1,0 +1,32 @@
+{
+    "url": "https://weather.com/weather/tenday/l/63e18eea74a484c42c3921cf52a8fec98113dbb13f6deb7c477b2f453c95b837",
+    "query": "weather in Sao Paulo",
+    "parsed_content": {
+        "summary": "The URL content does not contain any specific information about the weather in Sao Paulo. The content appears to be a general weather website with information about weather in various locations around the world, but does not have any details about Sao Paulo. The weather forecast for São Paulo, Brazil includes partly cloudy conditions with a chance of rain on Saturday, followed by cloudy skies and a higher chance of rain on Sunday. The weather forecast for Sao Paulo, Brazil includes a mix of rain, clouds, and some sunny periods over the next several days. Temperatures are expected to range from the high 50s to mid 80s Fahrenheit. The weather forecast for Sao Paulo includes mostly clear skies at night with a low of 66°F, scattered showers during the day on Friday with a high of 86°F and a 40% chance of rain, and scattered thunderstorms on Saturday with a high of 80°F and a 40% chance of rain. The weather forecast for Sao Paulo, Brazil includes a mix of sunshine and clouds, with temperatures ranging from the mid-60s to the high 80s Fahrenheit. There is a chance of rain on some days, with precipitation levels ranging from 9% to 20%. The wind speeds are generally light, between 5 to 10 mph, with a predominant easterly or southeasterly direction. The weather forecast for Sao Paulo, Brazil includes a mix of sunshine and clouds, with high temperatures around 89°F (32°C) and low temperatures around 66°F (19°C). There is a chance of rain, with a 14-22% chance of precipitation on the upcoming Friday and Saturday nights.",
+        "key_points": [
+            "The URL content does not contain any information about the weather in Sao Paulo",
+            "The website appears to be a general weather portal with information for many locations globally",
+            "There are no weather forecasts, historical data, or climate information specific to Sao Paulo",
+            "Saturday will be partly cloudy with a 6% chance of rain and winds from the WSW at 10 mph.",
+            "Sunday will be cloudy with a 23% chance of rain and winds from the SE at 14 mph.",
+            "Overnight on Sunday, there is a 34% chance of scattered showers.",
+            "Temperatures on Saturday will reach a high of 91°F and a low of 64°F, while Sunday will have a high of 69°F.",
+            "A few showers early with overcast skies late on Monday, with a 30% chance of rain and highs around 66F.",
+            "Mostly cloudy skies on Tuesday with a 20% chance of rain and highs around 68F.",
+            "Scattered showers likely on Wednesday with a 43% chance of rain and highs around 72F.",
+            "Partly cloudy skies on Thursday with a 9% chance of rain and highs near 85F.",
+            "Mostly clear skies at night with low of 66°F",
+            "Scattered showers on Friday with high of 86°F and 40% chance of rain",
+            "Scattered thunderstorms on Saturday with high of 80°F and 40% chance of rain",
+            "Mostly sunny and partly cloudy conditions throughout the forecast period",
+            "Temperatures ranging from a low of 66°F to a high of 89°F",
+            "Chances of rain ranging from 9% to 20% on some days",
+            "Light winds, generally 5 to 10 mph, from the east and southeast directions",
+            "High temperatures around 89°F (32°C)",
+            "Low temperatures around 66°F (19°C)",
+            "Chance of rain, with 14-22% chance of precipitation on Friday and Saturday nights",
+            "Partly cloudy skies with some sunshine"
+        ]
+    },
+    "is_answered": false
+}

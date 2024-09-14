@@ -1,0 +1,38 @@
+{
+    "url": "https://weather.com/weather/tenday/l/S%C3%A3o+Paulo+Brazil?placeId=74001f028dc7837f44924468f0e55c9e38870bfabcf851b6b1a2255174fb1044",
+    "query": "weather in Sao Paulo",
+    "parsed_content": {
+        "summary": "The page provides weather information for São Paulo, Brazil, including current conditions and a 10-day forecast. The weather in Sao Paulo, Brazil is expected to be partly cloudy with low temperatures around 70°F and winds from the ENE at 10-20 mph. The weather forecast for São Paulo, Brazil includes partly cloudy conditions today with a high of 78°F and a low of 70°F. The forecast for the next few days includes rain on Sunday with a high of 73°F and a low of 69°F. The weather forecast for Sao Paulo, Brazil over the next 5 days includes rain, scattered showers, and partly cloudy conditions. Temperatures are expected to range from the mid 60s to mid 70s Fahrenheit. The weather forecast for São Paulo, Brazil includes partly cloudy conditions with high temperatures around 78°F (26°C) and winds shifting from WNW to SSE at 10-15 mph (16-24 km/h). There is a chance of scattered showers in the evening on Friday and Saturday, with lows around 70°F (21°C) and winds from the NE and ENE at 5-10 mph (8-16 km/h). The weather forecast for Sao Paulo, Brazil over the next several days includes a mix of scattered showers, partly cloudy skies, and moderate temperatures.",
+        "key_points": [
+            "Current weather conditions in São Paulo, including temperature, humidity, wind speed, and precipitation.",
+            "Forecast for the next 10 days, covering expected weather patterns, temperatures, and precipitation chances.",
+            "Relevant weather statistics for São Paulo, such as average temperatures, rainfall, and cloud cover for different seasons or time periods.",
+            "Information about any notable weather events or patterns that may affect the São Paulo region, such as monsoons, droughts, or extreme weather.",
+            "Partly cloudy with low around 70°F and winds from the ENE at 10-20 mph",
+            "Scattered showers expected on Friday with rain chances around 50%",
+            "Partly cloudy conditions expected over the weekend with rain chances around 24%",
+            "Partly cloudy conditions expected on Monday with high temperatures around 81°F and winds from the ENE at 10-15 mph",
+            "Current weather conditions in São Paulo include partly cloudy skies with a temperature of 75°F, wind speeds of 10 mph, and a 6% chance of rain.",
+            "The forecast for Saturday includes partly to mostly cloudy skies with a high of 78°F and a low of 70°F, and a 6% chance of rain.",
+            "Sunday is expected to be cloudy with periods of rain, with a high of 73°F, a low of 69°F, and a 71% chance of rain.",
+            "The forecast indicates that the rain on Sunday could bring around a quarter of an inch of rainfall.",
+            "Monday: Rain, high of 71F, low of 66F",
+            "Tuesday: Scattered showers, high of 71F, low of 67F",
+            "Wednesday: Scattered showers, high of 72F, low of 68F",
+            "Thursday: Partly cloudy, high of 76F, low of 68F",
+            "Partly cloudy conditions with high temperatures around 78°F (26°C)",
+            "Winds shifting from WNW to SSE at 10-15 mph (16-24 km/h)",
+            "Chance of scattered showers in the evening on Friday and Saturday",
+            "Lows around 70°F (21°C) with winds from the NE and ENE at 5-10 mph (8-16 km/h)",
+            "Monday night: Scattered showers early with clearing later at night. Low around 70°F with winds from the ENE at 10-15 mph.",
+            "Tuesday: Partly cloudy early followed by mostly cloudy skies and a few showers later in the day. High of 78°F with winds from the E at 10-15 mph.",
+            "Tuesday night: Chance of a shower or two in the evening, followed by partly cloudy skies. Low around 70°F with winds from the ENE at 10-15 mph.",
+            "Wednesday: Partly cloudy skies with a high of 77°F and winds shifting from WNW to SE at 10-15 mph.",
+            "Wednesday night: A few clouds with a low around 70°F and winds from the ENE at 10-15 mph.",
+            "Thursday: Partly cloudy skies with a high of 78°F and winds shifting from NNW to ESE at 10-15 mph.",
+            "Thursday night: Partly cloudy skies with a low near 70°F and winds from the NE at 5-10 mph.",
+            "Friday: Partly cloudy with a high in the mid 70s and winds from the SW at 11 mph."
+        ]
+    },
+    "is_answered": true
+}

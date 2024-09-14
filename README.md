@@ -43,7 +43,6 @@ APP_ID=your_discord_app_id
 DISCORD_TOKEN=your_discord_bot_token
 CLAUDE_API_KEY=your_claude_api_key
 GUILD_ID=your_discord_server_id
-AUTHORIZED_USER_ID=your_discord_user_id
 ```
 
 Replace the placeholder values with your actual credentials and IDs.

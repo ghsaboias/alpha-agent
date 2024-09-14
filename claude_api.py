@@ -26,9 +26,7 @@ def save_conversation_history():
 
 conversation_history = load_conversation_history()
 
-async def ask_claude(user_id, message):
-    if user_id not in conversation_history:
-        conversation_history[user_id] = []
+async def ask_claude(message):
 
     time_info = f"Current date and time: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC"
 
@@ -44,11 +42,13 @@ async def ask_claude(user_id, message):
         search_decision_response, _ = await _make_claude_call(
             "claude-3-opus-20240229",
             search_decision_prompt,
-            "You are an AI assistant tasked with determining if a web search is needed."
+            "You are an AI assistant tasked with determining if a web search is needed.",
+            100
         )
         
         search_decision = search_decision_response.content[0].text.strip().lower()
         search_needed = (search_decision == 'yes')
+        print("Search needed:", search_needed)
     except Exception as e:
         search_needed = True  # Default to searching if there's an error
 
@@ -70,7 +70,6 @@ async def ask_claude(user_id, message):
     else:
         full_message = f"{time_info}\n\n{message}"
 
-    conversation_history[user_id].append({"role": "user", "content": full_message})
     save_conversation_history()
 
     try:
@@ -80,7 +79,7 @@ async def ask_claude(user_id, message):
             "You are an AI assistant providing quick and concise research. Use the provided information to answer the user's query accurately and concisely."
         )
 
-        conversation_history[user_id].append({
+        conversation_history.append({
             "role": "assistant", 
             "content": response.content[0].text,
             "token_usage": token_usage
@@ -90,10 +89,10 @@ async def ask_claude(user_id, message):
     except Exception as e:
         return f"Error processing request: {str(e)}"
 
-async def _make_claude_call(model: str, prompt: str, system_message: str) -> Tuple[anthropic.types.Message, Dict]:
+async def _make_claude_call(model: str, prompt: str, system_message: str, max_tokens: int = 2000) -> Tuple[anthropic.types.Message, Dict]:
     response = client.beta.prompt_caching.messages.create(
         model=model,
-        max_tokens=2000,
+        max_tokens=max_tokens,
         system=[
             {"type": "text", "text": system_message},
             {"type": "text", "text": prompt, "cache_control": {"type": "ephemeral"}}
@@ -113,23 +112,23 @@ async def _make_claude_call(model: str, prompt: str, system_message: str) -> Tup
 
     return response, token_usage
 
-def clear_history(user_id):
-    if user_id in conversation_history:
-        conversation_history[user_id] = []
-        save_conversation_history()
-        return "Conversation history cleared."
-    return "No conversation history found."
+def clear_history():
+    if os.path.exists(STORAGE_FILE):
+        os.remove(STORAGE_FILE)
+        print("Conversation history cleared.")
+    else:
+        print("No conversation history found.")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Ask Claude about a specific topic.")
     parser.add_argument("topic", help="The topic to ask Claude about")
     args = parser.parse_args()
 
-    user_id = "test_user_123"
     test_message = args.topic
     
     async def main():
-        response = await ask_claude(user_id, test_message)
+        response = await ask_claude(test_message)
         with open('claude_response.txt', 'w') as file:
             file.write(response)
         print(f"\nResponse from Claude: {response}")

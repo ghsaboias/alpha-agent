@@ -8,7 +8,6 @@ class Config:
     # Discord settings
     DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
     GUILD_ID = int(os.getenv('GUILD_ID'))
-    AUTHORIZED_USER_ID = int(os.getenv('AUTHORIZED_USER_ID'))
 
     # Claude API settings
     CLAUDE_API_KEY = os.getenv('CLAUDE_API_KEY')
