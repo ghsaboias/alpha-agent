@@ -1,39 +1,19 @@
-Based on the latest weather forecast for São Paulo, Brazil:
+Based on the available information, here's a comprehensive weather summary for Santana de Parnaíba:
 
 Current conditions:
-- Partly cloudy
-- Temperature: 75°F (24°C)
-- Wind: 10 mph (16 km/h)
-- Chance of rain: 6%
+- Temperature: 34°C (93°F)
+- Sky: Hot with a blend of sun and clouds
 
-Next few days:
-Friday:
-- Scattered showers possible
-- High: 78°F (26°C)
-- Low: 70°F (21°C)
-- Rain chance: 50%
+Forecast:
+- Today: Hot with a mix of sun and clouds
+- Tonight: Low clouds with a low of 18°C (64°F)
+- Next few days: Temperatures will cool slightly, with a mix of low clouds and some rain
+- 10-day outlook: Mixture of sun, clouds, and occasional rain showers
+- Temperature range: Highs around 35°C (95°F) to lows around 18°C (64°F)
 
-Saturday:
-- Partly to mostly cloudy
-- High: 78°F (26°C)
-- Low: 70°F (21°C)
-- Rain chance: 6%
+Additional notes:
+- Air pollution is currently high and unhealthy for sensitive groups
+- People experiencing difficulty breathing or throat irritation should reduce time spent outside
+- Wind speeds are reported around 10-15 mph (16-24 km/h) from the west
 
-Sunday:
-- Cloudy with periods of rain
-- High: 73°F (23°C)
-- Low: 69°F (21°C)
-- Rain chance: 71%
-- Expected rainfall: around 0.25 inches (6.35 mm)
-
-Monday:
-- Rain likely
-- High: 71°F (22°C)
-- Low: 66°F (19°C)
-
-Outlook for the week:
-- Temperatures ranging from mid-60s to high 70s Fahrenheit (18-26°C)
-- Mix of scattered showers and partly cloudy conditions
-- Winds generally from ENE at 10-15 mph (16-24 km/h)
-
-Overall, expect a mix of cloudy skies, some rain, and moderate temperatures in São Paulo over the next several days.
+It's worth noting that there may be a chance of scattered thunderstorms in the afternoons of some days, with rain chances varying between 6% and 40% depending on the day. Overall, expect a mix of partly cloudy to mostly sunny conditions with occasional rain or thunderstorms over the next week.

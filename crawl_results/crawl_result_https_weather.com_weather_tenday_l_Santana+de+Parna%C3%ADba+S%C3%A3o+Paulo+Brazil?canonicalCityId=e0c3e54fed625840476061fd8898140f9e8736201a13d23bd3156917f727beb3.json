@@ -1,0 +1,35 @@
+{
+    "url": "https://weather.com/weather/tenday/l/Santana+de+Parna%C3%ADba+S%C3%A3o+Paulo+Brazil?canonicalCityId=e0c3e54fed625840476061fd8898140f9e8736201a13d23bd3156917f727beb3",
+    "query": "weather in Santana de Parnaiba",
+    "parsed_content": {
+        "summary": "The weather information for Santana de Parnaiba, Brazil is provided, including current conditions and a 7-day forecast. The weather forecast for Santana de Parnaiba, Brazil for the next 7 days, including current conditions, daily forecasts, and some historical weather data. The weather forecast for Santana de Parnaiba, Brazil indicates mostly cloudy conditions with a chance of rain over the next few days. The temperature is expected to range from a high of 91°F (33°C) to a low of 61°F (16°C). The weather forecast for Santana de Parnaiba, Brazil over the next 7 days includes a mix of scattered thunderstorms, partly cloudy conditions, and some rain. Temperatures are expected to range from a low of 64°F to a high of 87°F. The weather forecast for Santana de Parnaiba, Brazil over the next 7 days includes a mix of sunshine, clouds, and some chances of rain. Temperatures are expected to be in the high 80s Fahrenheit during the day, with overnight lows in the mid to upper 60s Fahrenheit. The weather forecast for Santana de Parnaiba, Brazil shows mostly sunny skies with high temperatures around 90°F (32°C) and low temperatures around 65°F (18°C) over the next few days. There is a chance of rain in the evenings, with rain chances ranging from 9% to 13% on the upcoming Friday and Saturday nights.",
+        "key_points": [
+            "Current weather conditions in Santana de Parnaiba",
+            "7-day weather forecast for Santana de Parnaiba",
+            "Historical weather data for Santana de Parnaiba",
+            "Current weather conditions: Rain, 83% chance of rain, winds SSE at 14 mph",
+            "Monday: Steady rain early, remaining cloudy with a few showers. High of 67°F, low of 57°F.",
+            "Tuesday: Partly cloudy, 17% chance of rain. High of 69°F, low of 57°F.",
+            "Wednesday: Scattered showers, 38% chance of rain. High of 74°F, low of 60°F.",
+            "Thursday: Mostly sunny, 7% chance of rain. High of 87°F.",
+            "Current weather conditions: Mostly cloudy with 6% chance of rain, wind speed of 10 mph (16 km/h) from the west",
+            "Saturday (14th): Mostly cloudy with 6% chance of rain, high of 91°F (33°C), low of 63°F (17°C), winds from the west at 10-15 mph (16-24 km/h)",
+            "Sunday (15th): Cloudy with 17% chance of rain, high near 70°F (21°C), low of 61°F (16°C), winds from the southeast at 10-20 mph (16-32 km/h)",
+            "Current weather conditions: Mostly clear sky, low of 66°F, winds from the east at 5-10 mph",
+            "Friday: Scattered thunderstorms in the afternoon, high of 87°F, low of 64°F, 40% chance of rain",
+            "Saturday: Scattered thunderstorms in the afternoon, high of 81°F, low of 64°F, 40% chance of rain",
+            "Sunday: Partly cloudy, high of 86°F, low of 65°F, 15% chance of rain",
+            "Monday: Partly cloudy, high and low temperatures not provided, 9% chance of rain",
+            "Mostly sunny conditions with high temperatures around 89°F and low temperatures around 67°F on Monday",
+            "Partly cloudy conditions with a 19% chance of rain and high temperatures around 89°F and low temperatures around 66°F on Tuesday",
+            "Mostly sunny conditions with high temperatures around 90°F and low temperatures around 65°F on Wednesday",
+            "Sunny conditions with high temperatures around 89°F and low temperatures around 66°F on Thursday",
+            "Mostly sunny conditions with high temperatures around 89°F and low temperatures around 66°F on Friday",
+            "Mostly sunny skies with high temperatures around 90°F (32°C)",
+            "Low temperatures around 65°F (18°C)",
+            "Chance of evening rain, with rain chances ranging from 9% to 13% on Friday and Saturday nights",
+            "Winds from the east-southeast at 5-10 mph (8-16 km/h)"
+        ]
+    },
+    "is_answered": true
+}

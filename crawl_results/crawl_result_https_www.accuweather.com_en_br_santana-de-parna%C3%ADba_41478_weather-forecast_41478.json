@@ -1,0 +1,24 @@
+{
+    "url": "https://www.accuweather.com/en/br/santana-de-parna%C3%ADba/41478/weather-forecast/41478",
+    "query": "weather in Santana de Parnaiba",
+    "parsed_content": {
+        "summary": "The air has reached a high level of pollution and is unhealthy for sensitive groups. Reduce time spent outside if you are feeling symptoms such as difficulty breathing or throat irritation. Hurricane Tropical trouble brewing near the Carolina coast; may track into US Hurricane Francine disrupted oil industry, roared ashore in Louisiana Southern US braces for more rain, flooding as Francine fades The current weather in Santana de Parnaíba, Brazil is hot with a blend of sun and clouds. The forecast for the next 10 days includes a mix of low clouds, some rain, and periods of partial sunshine. Temperatures are expected to range from a high of 35°C to a low of 18°C.",
+        "key_points": [
+            "High air pollution levels",
+            "Unhealthy for sensitive groups",
+            "Reduce time spent outside if experiencing symptoms",
+            "Tropical system developing near the Carolinas",
+            "Potential for the system to track into the US",
+            "Hurricane Francine impacted the oil industry",
+            "Francine made landfall in Louisiana",
+            "Ongoing impacts from Hurricane Francine",
+            "Potential for additional rain and flooding in the southern US",
+            "Current temperature: 34°C",
+            "Today's forecast: Hot with a blend of sun and clouds",
+            "Tonight's forecast: Low clouds with a low of 18°C",
+            "3-day forecast: Cooler temperatures with low clouds and some rain",
+            "10-day forecast: Mixture of sun, clouds, and occasional rain showers"
+        ]
+    },
+    "is_answered": true
+}
