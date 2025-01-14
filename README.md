@@ -1,74 +1,90 @@
-# Claude-Integrated Discord Bot
+# Alpha Agent
 
-This project contains a Discord bot that interfaces with Claude AI, allowing for natural language interactions within a specified Discord server.
+An intelligent web research assistant that combines web crawling, search functionality, and AI-powered analysis using Anthropic's Claude API.
 
-## Project structure
+## Features
 
-Below is an overview of the simplified project structure:
+- Web crawling with intelligent content extraction
+- Brave Search integration for finding relevant web pages
+- AI-powered analysis using Claude 3
+- Automatic query analysis and search decision making
+- Conversation history tracking
+- Token usage monitoring and cost calculation
 
-```
-├── .env              -> environment variables (keep this private!)
-├── app.js            -> main entrypoint for the bot
-├── claude-api.js     -> Claude AI integration logic
-├── config.json       -> basic configuration for the bot
-├── package.json      -> project dependencies and scripts
-└── .gitignore        -> specifies intentionally untracked files
-```
+## Prerequisites
 
-## Running the bot locally
+- Python 3.11 or higher
+- API keys for:
+  - Anthropic Claude API
+  - Brave Search API
 
-Before you start, you'll need to:
+## Installation
 
-1. Install [NodeJS](https://nodejs.org/en/download/)
-2. [Create a Discord app](https://discord.com/developers/applications) with the proper permissions:
-   - `bot` (with Send Messages enabled)
-3. Obtain an API key from Anthropic for Claude AI access
-
-### Setup project
-
-Clone the project and install dependencies:
-
-```
-git clone [your-repository-url]
-cd [your-project-directory]
-npm install
+1. Clone the repository:
+```bash
+git clone https://github.com/ghsaboias/alpha-agent.git
+cd alpha-agent
 ```
 
-### Configure the bot
-
-Create a `.env` file in the project root and add the following:
-
+2. Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 ```
-APP_ID=your_discord_app_id
-DISCORD_TOKEN=your_discord_bot_token
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Create a `.env` file in the project root with your API keys:
+```env
 CLAUDE_API_KEY=your_claude_api_key
-GUILD_ID=your_discord_server_id
-```
-
-Replace the placeholder values with your actual credentials and IDs.
-
-### Run the bot
-
-After configuration, run the bot:
-
-```
-npm start
+BRAVE_API_KEY=your_brave_api_key
 ```
 
 ## Usage
 
-Once the bot is running and invited to your server, simply send a message in the specified server. The bot will process messages from the authorized user and respond with Claude's replies.
+### Command Line Interface
 
-## Customization
+Run a query using the command line interface:
 
-To modify the bot's behavior or add new features, edit the `app.js` and `claude-api.js` files. The `config.json` file can be used for any additional configuration options you might want to add.
+```bash
+python claude_api.py "your research query here"
+```
 
-## Security Note
+The response will be saved to `claude_response.txt` and also printed to the console.
 
-Keep your `.env` file and all API keys private. Never commit them to version control or share them publicly.
+### Key Components
 
-## Support
+- `web_analyzer.py`: Handles web crawling and content analysis
+- `claude_api.py`: Manages interactions with Claude API and orchestrates the research process
+- `config.py`: Contains configuration settings and environment variables
 
-For questions about the Discord API, join the [Discord Developers server](https://discord.gg/discord-developers).
+### Configuration
 
-For Claude AI-related queries, refer to the [Anthropic documentation](https://www.anthropic.com).
+You can modify various settings in `config.py`:
+
+- Model selection (Claude 3 Haiku/Sonnet)
+- Token limits
+- Cost calculations
+- Search result limits
+- Logging levels
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+[Add your chosen license here]
+
+## Acknowledgments
+
+- [Anthropic](https://www.anthropic.com/) for the Claude API
+- [Brave Search](https://brave.com/search/) for the search API
+- [crawl4ai](https://github.com/crawl4ai/crawl4ai) for web crawling functionality
