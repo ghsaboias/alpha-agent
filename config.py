@@ -5,10 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    # Discord settings
-    DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
-    GUILD_ID = int(os.getenv('GUILD_ID'))
-
     # Claude API settings
     CLAUDE_API_KEY = os.getenv('CLAUDE_API_KEY')
     INITIAL_MODEL = "claude-3-haiku-20240307"

@@ -7,3 +7,4 @@ __pycache__/
 *.pyd
 .crawl4ai_cache/
 conversation_history.json
+.DS_Store
